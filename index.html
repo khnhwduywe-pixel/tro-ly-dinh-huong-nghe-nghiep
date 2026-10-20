@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Psychology AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><span class="logo">✿</span><div><b>Career Bloom</b><small>AI Career Psychology</small></div></div>
+    <div class="side-note">Khám phá bản thân.<br>Chạm đến nghề nghiệp phù hợp.</div>
+    <button id="newChat" class="new-chat">＋ Cuộc trò chuyện mới</button>
+    <div class="side-bottom">Trợ lý định hướng nghề nghiệp<br><small>Kết quả chỉ mang tính tham khảo.</small></div>
+  </aside>
+  <main class="main">
+    <header><div class="mobile-brand">✿ Career Bloom</div><span class="status"><i></i> Trợ lý đang sẵn sàng</span></header>
+    <section class="welcome" id="welcome">
+      <div class="flower">✿</div>
+      <p class="eyebrow">YOUR CAREER COMPANION</p>
+      <h1>Chào bạn, mình cùng<br><em>khám phá chính bạn</em> nhé.</h1>
+      <p class="intro">Từng bước tìm hiểu sở thích, thế mạnh và giá trị cá nhân để mở ra những hướng nghề nghiệp bạn có thể cân nhắc.</p>
+      <div class="quick-prompts">
+        <button data-prompt="Mình chưa biết chọn ngành nghề nào phù hợp. Hãy giúp mình khám phá bản thân.">🌷 Mình chưa biết chọn ngành</button>
+        <button data-prompt="Hãy giúp mình khám phá những điểm mạnh của bản thân bằng vài câu hỏi.">✨ Khám phá điểm mạnh</button>
+        <button data-prompt="Mình quan tâm đến ngành Tâm lý học. Hãy giúp mình tìm hiểu hướng nghề nghiệp này.">🧠 Mình quan tâm Tâm lý học</button>
+        <button data-prompt="Hãy giúp mình lập kế hoạch tìm hiểu và chuẩn bị cho nghề nghiệp tương lai.">📝 Lập kế hoạch nghề nghiệp</button>
+      </div>
+    </section>
+    <section id="chat" class="chat" aria-live="polite"></section>
+    <form id="chatForm" class="composer">
+      <textarea id="message" rows="1" placeholder="Chia sẻ điều bạn đang suy nghĩ..." maxlength="4000"></textarea>
+      <button id="send" type="submit" aria-label="Gửi tin nhắn">➤</button>
+      <div class="disclaimer">AI có thể chưa hoàn toàn chính xác. Tránh nhập thông tin cá nhân nhạy cảm.</div>
+    </form>
+  </main>
+</div>
+<script src="script.js"></script>
+</body></html>
