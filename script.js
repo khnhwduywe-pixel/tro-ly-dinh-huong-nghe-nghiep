@@ -1,5 +1,5 @@
 // 1. Cấu hình API Key và Model
-const GEMINI_API_KEY = "AQ.Ab8RN6JOQUzUozS1ig_rbfWMh1XeYvaEsjZmUUFWQEhATtQrfg"; 
+const GEMINI_API_KEY = "AQ.Ab8RN6JUh1Zr74GOI7qb_CDjTQg-28Zf5YUIgD1h58ymk2m9-A"; 
 const GEMINI_MODEL = "gemini-3.8-flash";
 
 const form = document.getElementById('chatForm'),
